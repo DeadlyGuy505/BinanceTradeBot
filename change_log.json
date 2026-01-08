@@ -1,0 +1,528 @@
+{
+    "general": [
+        {
+            "title": "Changelog",
+            "description": "All notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)."
+        }
+    ],
+    "versions": [
+        {
+            "version": "v2.13.0",
+            "date": "2021-07-04 14:53",
+            "section": [
+                {
+                    "label": "Changed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Using single point of truth for cost handling"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Important attributes are stored in a dict now for easier version changes in the future"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.12.0",
+            "date": "2021-03-21 11:20",
+            "section": [
+                {
+                    "label": "Changed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Updated donation addresses"
+                        }
+                    ]
+                },
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fix problems with creating a trading set using a signal text"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.11.1",
+            "date": "2021-02-23 00:54",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed problem with message container during update check"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.11.0",
+            "date": "2021-02-23 00:40",
+            "section": [
+                {
+                    "label": "Added",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Pasting raw text containing formatted buy signals when defining a new trade set is now supported in a limited range."
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "The leftover coins (coins not sold) are now mentioned during trade set activation and deletion"
+                        }
+                    ]
+                },
+                {
+                    "label": "Changed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Changing donation addresses"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.10.1",
+            "date": "2021-01-20 16:41",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fix problem with already deleted messages"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.10.0",
+            "date": "2021-01-20 16:05",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed autosave problem that arised from new telegram version."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.9.3",
+            "date": "2021-01-08 09:45",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "User is now informed if there are problems with showing a trade set"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.9.2",
+            "date": "2020-12-28 10:41",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed error with new python telegram bot version"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.9.1",
+            "date": "2020-11-22 18:06",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fix dev tool dependency"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.9.0",
+            "date": "2020-11-22 17:46",
+            "section": [
+                {
+                    "label": "Added",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Provides the possibility to update eazebot via Telegram"
+                        }
+                    ]
+                },
+                {
+                    "label": "Changed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Instead of GitHub commit messages, the changes written in the change log are now shown in Telegram"
+                        }
+                    ]
+                },
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed version comparison which was not working correctly for some versions."
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed change log template to correctly list the branch comparisons at the bottom"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Fix dependency on dev package pystache when only loading ChangeLog class for accessing changes"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Trade set name now also appears in the 1 year buy warning"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.8.0",
+            "date": "2020-10-03 11:55",
+            "section": [
+                {
+                    "label": "Added",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Possibility to name the trade set"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.7.2",
+            "date": "2020-09-21 12:45",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Exchanges are added directly, if a new user starts the bot"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Bug with missing taxWarn setting for new user fixed"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.7.1",
+            "date": "2020-08-25 17:57",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed double master push in dev tools"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed iteration over trade set object during deletion of trade set"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Docker image does not restart automatically anymore"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.7.0",
+            "date": "2020-08-17 08:35",
+            "section": [
+                {
+                    "label": "Added",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Added scripts and hooks for automated multi-arch building on docker hub"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.6.2",
+            "date": "2020-08-15 10:01",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Bug during SL trigger"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Bug with trailing SLs"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Allow merge into master only"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Fix version text bug"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.6.1",
+            "date": "2020-08-05 09:10",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Added possibility to delete regular buying plan"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed error when using base currency during defining buy/sell level"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.6.0",
+            "date": "2020-08-04 19:35",
+            "section": [
+                {
+                    "label": "Added",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Activated regular buy feature"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Activated \"hide filled orders\" feature"
+                        }
+                    ]
+                },
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed empty change log"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.5.3",
+            "date": "2020-08-04 09:39",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fix missing argument in delete trade set function"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.5.2",
+            "date": "2020-07-31 10:07",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed typo that prevented trade set deletion"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.5.1",
+            "date": "2020-07-29 19:23",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Added necessary module dateparser to requirements"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.5.0",
+            "date": "2020-07-29 10:27",
+            "section": [
+                {
+                    "label": "Added",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Adding prerequisites for a new type of buy (regular buy) to buy with some interval"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Adding prerequisites for a new option to hide filled orders (option within each trade set)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.4.3",
+            "date": "2020-07-26 06:38",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed old attribute calls"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.4.2",
+            "date": "2020-07-13 11:45",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fixed bug with precision calculation during balance fetching"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.4.1",
+            "date": "2020-07-13 09:08",
+            "section": [
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Fix version info, which now comes from __init__.py"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "version": "v2.4.0",
+            "date": "2020-07-13 08:57",
+            "section": [
+                {
+                    "label": "Added",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Added change log functionality and improved git manager"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Added upper cap for backup files configurable via maxBackupFileCount in botConfig.json"
+                        }
+                    ]
+                },
+                {
+                    "label": "Changed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Transformed trade set dictionaries into class"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Transformed SL dictionaries into classes"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Prices are now kept and updated in a price class including time stamp to avoid rest api calls for prices that have already been queries recently"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Modules now communicate with telegram via the Telegram logging handler by handing over the chatId as extra argument"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "More refactoring"
+                        },
+                        {
+                            "author": "Marcel",
+                            "message": "Updated ccxt and python-telegram-version"
+                        }
+                    ]
+                },
+                {
+                    "label": "Fixed",
+                    "entries": [
+                        {
+                            "author": "Marcel",
+                            "message": "Typos in dev_utils"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

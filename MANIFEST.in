@@ -1,0 +1,7 @@
+include readme.md
+include botLogo.png
+include LICENSE
+include LICENSE.LESSER
+include eazebot/templates/*
+include requirements.txt
+prune eazebot/__pycache__
